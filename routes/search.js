@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 let plat = [
-    require("./search_part/kugou"),
+    // require("./search_part/kugou"),
     require("./search_part/netease"),
     require("./search_part/qq"),
     require("./search_part/baidu"),
